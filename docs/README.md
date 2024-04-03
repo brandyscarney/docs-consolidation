@@ -5,8 +5,34 @@
 </p>
 
 <h1 align="center">
-  Ionic Framework
+  Ionic Framework Developer Resources
 </h1>
 
-* [Contributing](./CONTRIBUTING.md)
-* [Component Guide](./COMPONENT_GUIDE.md)
+<p align="center">
+  This documentation includes guidelines on how to contribute, coding conventions, best practices, testing steps, and more. It should serve as a collective resource for all documentation related to developing Ionic Framework.
+</p>
+
+## What is Ionic Framework?
+
+Ionic Framework is an open source app development toolkit for building modern, fast, top-quality cross-platform native and Progressive Web Apps from a single codebase with JavaScript and the Web.
+
+It is based on <a href="https://www.webcomponents.org/introduction">Web Components</a>, which enables significant performance, usability, and feature improvements alongside support for popular web frameworks like <a href="https://angular.io/">Angular</a>, <a href="https://reactjs.com/">React</a>, and <a href="https://vuejs.org/">Vue</a>.
+
+</p>
+
+<h2 align="center">
+  <a href="./CONTRIBUTING.md">Contributing</a>
+  <span> · </span>
+  <a href="./COMPONENT_GUIDE.md">Component Guide</a>
+  <span> · </span>
+  <a href="https://github.com/ionic-team/ionic-framework/blob/main/LICENSE">License</a>
+</h2>
+
+### Packages
+
+| Project | Package | Links |
+| ------- | ------- |:-----:|
+| **Core** | [`@ionic/core`](https://www.npmjs.com/package/@ionic/core) | [`README.md`](core/README.md)
+| **Angular** | [`@ionic/angular`](https://www.npmjs.com/package/@ionic/angular) | [`README.md`](packages/angular/README.md)
+| **Vue** | [`@ionic/vue`](https://www.npmjs.com/package/@ionic/vue) | [`README.md`](packages/vue/README.md)
+| **React** | [`@ionic/react`](https://www.npmjs.com/package/@ionic/react) | [`README.md`](packages/react/README.md)
