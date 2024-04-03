@@ -26,6 +26,9 @@ It is based on <a href="https://www.webcomponents.org/introduction">Web Componen
   <a href="https://github.com/ionic-team/ionic-framework/blob/main/LICENSE">License</a>
 </h2>
 
+- [Contributing](./CONTRIBUTING.md)
+- [Component Guide](./COMPONENT_GUIDE.md)
+
 ### Packages
 
 | Project | Package | Links |
