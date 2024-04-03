@@ -18,8 +18,6 @@ Ionic Framework is an open source app development toolkit for building modern, f
 
 It is based on <a href="https://www.webcomponents.org/introduction">Web Components</a>, which enables significant performance, usability, and feature improvements alongside support for popular web frameworks like <a href="https://angular.io/">Angular</a>, <a href="https://reactjs.com/">React</a>, and <a href="https://vuejs.org/">Vue</a>.
 
-</p>
-
 <h2 align="center">
   <a href="./CONTRIBUTING.md">Contributing</a>
   <span> · </span>
