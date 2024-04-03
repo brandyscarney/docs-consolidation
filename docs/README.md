@@ -9,4 +9,5 @@
 </h1>
 
 * [Contributing](./CONTRIBUTING.md)
+* [Testing](./TESTING.md)
 * [Component Guide](./COMPONENT_GUIDE.md)
