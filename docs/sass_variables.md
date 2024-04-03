@@ -7,16 +7,15 @@
 - [Proposed Usage](#proposed-usage)
   * [Comments](#comments)
   * [Variables](#variables)
-    + [:white_check_mark: Global](#white_check_mark-global)
-    + [:white_check_mark: Theming](#white_check_mark-theming)
-    + [:white_check_mark: Reusable values](#white_check_mark-reusable-values)
-    + [:white_check_mark: Media queries](#white_check_mark-media-queries)
-    + [:white_check_mark: Dynamic calculations](#white_check_mark-dynamic-calculations)
-    + [:no_entry_sign: Consistency](#no_entry_sign-consistency)
-    + [:no_entry_sign: Text Alignment](#no_entry_sign-text-alignment)
-    + [:no_entry_sign: Structural Changes](#no_entry_sign-structural-changes)
-    + [:no_entry_sign: Font Properties](#no_entry_sign-font-properties)
-- [Breaking Changes](#breaking-changes)
+    + [✅ Global](#-global)
+    + [✅ Theming](#-theming)
+    + [✅ Reusable values](#-reusable-values)
+    + [✅ Media queries](#-media-queries)
+    + [✅ Dynamic calculations](#-dynamic-calculations)
+    + [🚫 Consistency](#-consistency)
+    + [🚫 Text Alignment](#-text-alignment)
+    + [🚫 Structural Changes](#-structural-changes)
+    + [🚫 Font Properties](#-font-properties)
 
 ## Definitions
 
@@ -141,19 +140,19 @@ We should update the comments for Sass variables in one of the following ways:
 
 The table below outlines the recommended approach for when to use Sass variables. Each scenario links to a section that explains it in more detail.
 
-|                    | Scenario                                                       |
-| -------------------| ---------------------------------------------------------------|
-| :white_check_mark: | [Global](#white_check_mark-global)                             |
-| :white_check_mark: | [Theming](#white_check_mark-theming)                           |
-| :white_check_mark: | [Reusable values](#white_check_mark-reusable-values)           |
-| :white_check_mark: | [Media queries](#white_check_mark-media-queries)               |
-| :white_check_mark: | [Dynamic calculations](#white_check_mark-dynamic-calculations) |
-| :no_entry_sign:    | [Consistency](#no_entry_sign-consistency)                      |
-| :no_entry_sign:    | [Text Alignment](#no_entry_sign-text-alignment)                |
-| :no_entry_sign:    | [Structural Changes](#no_entry_sign-structural-changes)        |
-| :no_entry_sign:    | [Font Properties](#no_entry_sign-font-properties)              |
+|    | Scenario                                                       |
+| ---| ---------------------------------------------------------------|
+| ✅ | [Global](#white_check_mark-global)                             |
+| ✅ | [Theming](#white_check_mark-theming)                           |
+| ✅ | [Reusable values](#white_check_mark-reusable-values)           |
+| ✅ | [Media queries](#white_check_mark-media-queries)               |
+| ✅ | [Dynamic calculations](#white_check_mark-dynamic-calculations) |
+| 🚫 | [Consistency](#no_entry_sign-consistency)                      |
+| 🚫 | [Text Alignment](#no_entry_sign-text-alignment)                |
+| 🚫 | [Structural Changes](#no_entry_sign-structural-changes)        |
+| 🚫 | [Font Properties](#no_entry_sign-font-properties)              |
 
-#### :white_check_mark: Global
+#### ✅ Global
 
 Global variables that are used in multiple places include `font-family`, `z-index`, and `opacity`. These should continue to be set in variables as they affect multiple components that use them.
 
@@ -169,7 +168,7 @@ $hairlines-width:               .55px !default;
 $placeholder-opacity:           0.6 !default;
 ```
 
-#### :white_check_mark: Theming
+#### ✅ Theming
 
 Storing colors and other design-related values makes it easy to update an entire theme by modifying a few variables.
 
@@ -197,7 +196,7 @@ $backdrop-ios-color:            var(--ion-backdrop-color, #000) !default;
 $overlay-ios-background-color:  var(--ion-overlay-background-color, var(--ion-color-step-100, #f9f9f9)) !default;
 ```
 
-#### :white_check_mark: Reusable values
+#### ✅ Reusable values
 
 Use variables for values that are repeated throughout stylesheets, such as spacing, `border-radius`, `font-size`, or any other value used in multiple places. A value should only be considered reusable if it is used more than once and related among the elements it is being applied to in some way. For instance, a value is not considered related if it changes a common property, such as border style. While many components use `border-style: solid`, it does not need to be stored unless these components will require updates with design changes. Currently, the border styles have consistently been set to `solid`, with the exception of `none` for a CSS reset.
 
@@ -206,7 +205,7 @@ Example of reusable values:
 <table>
 <thead>
 <tr>
-<th>Do :white_check_mark:</th>
+<th>Do ✅</th>
 </tr>
 </thead>
 <tbody>
@@ -273,7 +272,7 @@ If a value is shared among multiple components, it should be made into a [global
 <table>
 <thead>
 <tr>
-<th>Do :white_check_mark:</th>
+<th>Do ✅</th>
 </tr>
 </thead>
 <tbody>
@@ -354,7 +353,7 @@ $item-divider-md-padding-end:          $item-md-padding-end !default;
 > [!TIP]
 > The names of the global variables are just an example. We do not currently have a naming convention for global variables.
 
-#### :white_check_mark: Media queries
+#### ✅ Media queries
 
 Define breakpoints for responsive design to allow easy adjustments as needed.
 
@@ -374,14 +373,14 @@ $screen-breakpoints: (
 ) !default;
 ```
 
-#### :white_check_mark: Dynamic calculations
+#### ✅ Dynamic calculations
 
 Variables can be useful for dynamic calculations, such as storing a base font size in a variable and then using it in calculations for other font sizes or spacing values. Variables should not be used for storing a function call, even if the function itself has dynamic calculations.
 
 <table>
 <thead>
 <tr>
-<th>Do :white_check_mark:</th>
+<th>Do ✅</th>
 </tr>
 </thead>
 <tbody>
@@ -426,7 +425,7 @@ $alert-button-font-size:          dynamic-font(14px) !default;
 </tr>
 </table>
 
-#### :no_entry_sign: Consistency
+#### 🚫 Consistency
 
 While we usually aim for consistency across different modes, this isn't always necessary when dealing with Sass variables. If certain styles are present in one mode but absent in another, there's no need to include a Sass variable for the mode lacking those styles.
 
@@ -435,7 +434,7 @@ For example, the color of the label changes when focused in `md` mode. However, 
 <table>
 <thead>
 <tr>
-<th>Do :white_check_mark:</th>
+<th>Do ✅</th>
 </tr>
 </thead>
 <tbody>
@@ -493,14 +492,14 @@ $label-ios-text-color-focused:         null !default;
 </tr>
 </table>
 
-#### :no_entry_sign: Text Alignment
+#### 🚫 Text Alignment
 
 A text alignment property should not be stored in a Sass variable, even if it is used in multiple places. This is because the alignment may be tied to a specific design, and the design may change, causing them to become disconnected.
 
 <table>
 <thead>
 <tr>
-<th>Do :white_check_mark:</th>
+<th>Do ✅</th>
 <th>Don't :x:</th>
 </tr>
 </thead>
@@ -547,14 +546,14 @@ $action-sheet-ios-text-align:        center !default;
 </table>
 
 
-#### :no_entry_sign: Structural Changes
+#### 🚫 Structural Changes
 
 Variables should not be used when they are structural changes of an element. This includes `display` properties, `flex` properties, `grid` properties, and more.
 
 <table>
 <thead>
 <tr>
-<th>Do :white_check_mark:</th>
+<th>Do ✅</th>
 </tr>
 </thead>
 <tbody>
@@ -611,14 +610,14 @@ $alert-ios-button-flex:                   1 1 auto !default;
 </tr>
 </table>
 
-#### :no_entry_sign: Font Properties
+#### 🚫 Font Properties
 
 We shouldn't use variables for changing things such as `font-size` or `font-weight`, as these are not changed based on a theme and do not need to be updated globally. When updating the `font-size` and `font-weight` for these elements, it will always be done on a case-by-case basis:
 
 <table>
 <thead>
 <tr>
-<th>Do :white_check_mark:</th>
+<th>Do ✅</th>
 </tr>
 </thead>
 <tbody>
@@ -680,11 +679,6 @@ $action-sheet-ios-sub-title-font-size:      dynamic-font-min(1, 13px) !default;
 </td>
 </tr>
 </table>
-
-## Breaking Changes
-
-There is a potential risk associated with removing Sass variables. It is unknown whether anyone is rebuilding the Ionic Framework source code by modifying the Sass variables. We have not publicly recommended that anyone do this, and in the past, we have removed Sass variables without considering developers doing so. Therefore, I do not believe this should be considered a breaking change, nor do I think this risk should influence any decisions we make.
-
 
 [^1]: Sass Documentation, https://sass-lang.com/documentation/
 
