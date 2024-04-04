@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  This documentation includes guidelines on how to contribute, coding conventions, best practices, testing steps, and more. It should serve as a collective resource for all documentation related to developing Ionic Framework.
+  This documentation includes guidelines on contributing, coding conventions, best practices, testing steps, and more. It should serve as a collective resource for all documentation related to developing Ionic Framework.
 </p>
 
 ## What is Ionic Framework?
