@@ -1,4 +1,4 @@
-# Sass Variables Guidelines
+# Sass Guidelines
 
 - [Definitions](#definitions)
 - [Scope](#scope)

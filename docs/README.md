@@ -22,7 +22,7 @@ It is based on <a href="https://www.webcomponents.org/introduction">Web Componen
 
 - [Contributing](./CONTRIBUTING.md)
 - [Component Guide](./COMPONENT_GUIDE.md)
-- [Sass Variables Guidelines](./sass_variables.md)
+- [Sass Guidelines](./sass_guidelines.md)
 
 ## Packages
 
