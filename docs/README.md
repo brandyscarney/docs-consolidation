@@ -21,8 +21,8 @@ It is based on <a href="https://www.webcomponents.org/introduction">Web Componen
 ## Guides
 
 - [Contributing](./CONTRIBUTING.md)
-- [Component Guide](./COMPONENT_GUIDE.md)
-- [Sass Guidelines](./sass_guidelines.md)
+- [Component Guide](./component-guide.md)
+- [Sass Guidelines](./sass-guidelines.md)
 
 ## Packages
 
