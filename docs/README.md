@@ -29,6 +29,6 @@ It is based on <a href="https://www.webcomponents.org/introduction">Web Componen
 | Project | Package | Links |
 | ------- | ------- |:-----:|
 | **Core** | [`@ionic/core`](https://www.npmjs.com/package/@ionic/core) | [`README.md`](core/README.md)
-| **Angular** | [`@ionic/angular`](https://www.npmjs.com/package/@ionic/angular) | [`README.md`](packages/angular/README.md)
-| **Vue** | [`@ionic/vue`](https://www.npmjs.com/package/@ionic/vue) | [`README.md`](packages/vue/README.md)
-| **React** | [`@ionic/react`](https://www.npmjs.com/package/@ionic/react) | [`README.md`](packages/react/README.md)
+| **Angular** | [`@ionic/angular`](https://www.npmjs.com/package/@ionic/angular) | [`README.md`](angular/README.md)
+| **Vue** | [`@ionic/vue`](https://www.npmjs.com/package/@ionic/vue) | [`README.md`](vue/README.md)
+| **React** | [`@ionic/react`](https://www.npmjs.com/package/@ionic/react) | [`README.md`](react/README.md)
