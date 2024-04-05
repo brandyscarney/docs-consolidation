@@ -28,7 +28,7 @@ It is based on <a href="https://www.webcomponents.org/introduction">Web Componen
 
 | Project          | Package                                                                    | Documentation                    | Guides                                                            |
 | ---------------- | -------------------------------------------------------------------------- | ---------------------------------| ----------------------------------------------------------------- |
-| **Core**         | [`@ionic/core`](https://www.npmjs.com/package/@ionic/core)                 | [Readme](core/README.md)         | [Testing](core/testing.md)                                        |
+| **Core**         | [`@ionic/core`](https://www.npmjs.com/package/@ionic/core)                 | [Readme](core/README.md)         | [Testing](core/testing/README.md)                                 |
 | **Angular**      | [`@ionic/angular`](https://www.npmjs.com/package/@ionic/angular)           | [Readme](angular/README.md)      | [Testing](angular/testing.md)                                     |
 | **Vue**          | [`@ionic/vue`](https://www.npmjs.com/package/@ionic/vue)                   | [Readme](vue/README.md)          | [Testing](vue/testing.md)                                         |
 | **Vue Router**   | [`@ionic/vue-router`](https://www.npmjs.com/package/@ionic/vue-router)     | [Readme](vue-router/README.md)   | [Testing](vue-router/testing.md)                                  |

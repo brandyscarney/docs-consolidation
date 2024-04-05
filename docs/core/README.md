@@ -8,9 +8,4 @@ See our [Contributing Guide](/docs/CONTRIBUTING.md).
 
 ## Testing
 
-| Directory                                             | Description                                                                                   |
-| ----------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [Core Testing](./testing.md)                          | How to build core and preview changes                                                         |
-| [Usage Instructions](./testing/usage-instructions.md) | How to run tests and update screenshots                                                       |
-| [Best Practices](./testing/best-practices.md)         | Contains information on conventions to follow as well as pitfalls to avoid when writing tests |
-| [API](./testing/api.md)                               | Documents the custom functionality that has been built on top of Playwright                   |
+Refer to the [Core Testing documentation](./testing/README.md) for testing the Core package.
