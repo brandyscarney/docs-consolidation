@@ -23,7 +23,6 @@ It is based on <a href="https://www.webcomponents.org/introduction">Web Componen
 - [Contributing](./CONTRIBUTING.md)
 - [Component Guide](./component-guide.md)
 - [Sass Guidelines](./sass-guidelines.md)
-- [Playwright](./playwright/README.md)
 
 ## Packages
 
