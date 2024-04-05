@@ -20,9 +20,11 @@ It is based on <a href="https://www.webcomponents.org/introduction">Web Componen
 
 ## Guides
 
-- [Contributing](./CONTRIBUTING.md)
-- [Component Guide](./component-guide.md)
-- [Sass Guidelines](./sass-guidelines.md)
+| Guide                                   | Description                                                                              |
+| ----------------------------------------| ---------------------------------------------------------------------------------------- |
+| [Contributing](./CONTRIBUTING.md)       | How to contribute including creating pull requests, commit message guidelines, and more. |
+| [Component Guide](./component-guide.md) | Guidelines for implementing component states, accessibility, and more.                   |
+| [Sass Guidelines](./sass-guidelines.md) | Outlines scenarios where Sass members and comments should be used.                       |
 
 ## Packages
 
