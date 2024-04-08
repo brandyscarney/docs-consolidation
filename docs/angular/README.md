@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ionic Angular
+nav_order: 6
+has_children: true
+---
+
 # Ionic Angular
 
 The [@ionic/angular](https://www.npmjs.com/package/@ionic/angular) package builds on top of [@ionic/core](https://www.npmjs.com/package/@ionic/core) components.

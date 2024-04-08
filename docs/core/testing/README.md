@@ -1,3 +1,10 @@
+---
+layout: default
+title: Core Testing
+parent: Ionic Core
+nav_order: 2
+has_children: true
+---
 
 # Core Testing
 

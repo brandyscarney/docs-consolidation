@@ -1,3 +1,9 @@
+---
+layout: default
+title: Contributing
+nav_order: 2
+---
+
 # Contributing
 
 Thanks for your interest in contributing to the Ionic Framework! 🎉

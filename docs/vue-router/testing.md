@@ -1,3 +1,10 @@
+---
+layout: default
+title: Vue Router Testing
+parent: Ionic Vue Router
+nav_order: 2
+---
+
 # Vue Router Testing
 
 ## Tests

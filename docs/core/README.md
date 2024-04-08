@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ionic Core
+nav_order: 5
+has_children: true
+---
+
 # Ionic Core
 
 The [@ionic/core](https://www.npmjs.com/package/@ionic/core) package contains the Web Components that make up the reusable UI building blocks of Ionic Framework. These components are designed to be used in traditional frontend view libraries/frameworks (such as React, Angular, or Vue), or on their own through traditional JavaScript in the browser.

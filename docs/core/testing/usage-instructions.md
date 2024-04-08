@@ -1,3 +1,11 @@
+---
+layout: default
+title: Usage Instructions
+parent: Core Testing
+grand_parent: Ionic Core
+nav_order: 3
+---
+
 # Usage Instructions
 
 E2E tests verify Ionic components in a real browser. This is useful for testing user interaction and catching visual regressions. We use Playwright as it allows us to test in multiple browsers. Tests can be written and run using Playwright's public API.
@@ -14,7 +22,7 @@ E2E tests verify Ionic components in a real browser. This is useful for testing 
 
 Follow these steps to install Playwright dependencies. These steps must also be run whenever the installed version of Playwright changes to ensure that you are testing with the correct browser binaries.
 
-1. Install the Playwright dependency in the `core` directory: `npm ci` 
+1. Install the Playwright dependency in the `core` directory: `npm ci`
 2. Download the correct browsers: `npx playwright install`
 
 ## Configuring Docker
@@ -118,7 +126,7 @@ npm run test.e2e src/components/chip
 ```
 
  Playwright supports the `--headed` flag to run in headed mode which causes the visual representation of the browser to appear:
- 
+
  ```shell
  # Will run tests in headed mode
  npm run test.e2e src/components/chip -- --headed
@@ -126,7 +134,7 @@ npm run test.e2e src/components/chip
 
 ## Managing Screenshots
 
-If you are running a test that takes a screenshot, you must first generate the reference screenshot from your reference branch. This is known as generating a "ground truth screenshot". All other screenshots will be compared to this ground truth. 
+If you are running a test that takes a screenshot, you must first generate the reference screenshot from your reference branch. This is known as generating a "ground truth screenshot". All other screenshots will be compared to this ground truth.
 
 ### Generating or Updating Ground Truths With Docker (Local Development)
 

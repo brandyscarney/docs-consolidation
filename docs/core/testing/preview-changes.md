@@ -1,3 +1,11 @@
+---
+layout: default
+title: Preview Changes
+parent: Core Testing
+grand_parent: Ionic Core
+nav_order: 2
+---
+
 # Preview Changes
 
 ## Build

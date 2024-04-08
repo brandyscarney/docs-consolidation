@@ -1,3 +1,10 @@
+---
+layout: default
+title: Angular Testing
+parent: Ionic Angular
+nav_order: 2
+---
+
 # Angular Testing
 
 Ionic Framework supports multiple versions of Angular. As a result, we need to verify that Ionic works correctly with each of these Angular versions.

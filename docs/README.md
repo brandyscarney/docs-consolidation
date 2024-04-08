@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+nav_order: 1
+---
+
 <p align="center">
   <img alt="Ionic Logo" src="https://github.com/ionic-team/ionic-framework/blob/main/.github/assets/logo.png?raw=true" width="60" />
 </p>

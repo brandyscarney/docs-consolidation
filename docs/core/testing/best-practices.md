@@ -1,3 +1,11 @@
+---
+layout: default
+title: Best Practices
+parent: Core Testing
+grand_parent: Ionic Core
+nav_order: 4
+---
+
 # Best Practices
 
 This guide details best practices that should be followed when writing E2E tests.
@@ -51,7 +59,7 @@ Some features can be combined together, and so it is acceptable in this instance
 
 <h2 id="practice-file-format">Follow the file format</h2>
 
-E2E test files should follow this format: 
+E2E test files should follow this format:
 
 ```tsx
 [component name].e2e.ts
@@ -140,7 +148,7 @@ test.describe('button: disabled state', () => {
     test.beforeEach(async ({ page }) => {
       await page.goto('/src/components/button/test', config);
     });
-    
+
     test(title('should not have any visual regressions'), async ({ page }) => {
       ...
     });
@@ -163,7 +171,7 @@ configs().forEach(({ config, title }) => {
     test.beforeEach(async ({ page }) => {
       await page.goto('/src/components/button/test', config);
     });
-    
+
     /**
      * Test title is still unique because of our use of title()
      * on the test.describe block.
@@ -190,7 +198,7 @@ By default, we run tests on mobile viewports only (think iPhone sized viewports)
 
 For this scenario, developers must write tests that target the tablet viewport. This can be done by using [page.setViewportSize](https://playwright.dev/docs/api/class-page#page-set-viewport-size). The Playwright test utils directory also contains a `Viewports` constant which contains some common viewport presets. Developers should feel free to add new viewports to this as is applicable.
 
-**Example:** 
+**Example:**
 
 ```javascript
 import { configs, test, Viewports } from '@utils/test/playwright';
@@ -221,7 +229,7 @@ configs().forEach(({ config, title }) => {
   test.describe(title('modal: rendering') => {
     test('it should open a modal', async ({ page }) => {
       await page.setContent('<ion-modal is-open="true">...</ion-modal>', config);
-      
+
       await expect(page).toHaveScreenshot(screenshot('modal-open'));
     });
   });
@@ -237,7 +245,7 @@ configs().forEach(({ config, title }) => {
   test.describe(title('modal: rendering') => {
     test('it should open a modal', async ({ page }) => {
       await page.setContent('<ion-modal is-open="true">...</ion-modal>', config);
-      
+
       const modal = page.locator('ion-modal');
       await expect(modal).toBeVisible();
     });

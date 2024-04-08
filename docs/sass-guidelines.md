@@ -1,3 +1,9 @@
+---
+layout: default
+title: Sass Guidelines
+nav_order: 4
+---
+
 # Sass Guidelines
 
 - [Definitions](#definitions)

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Component Guide
+nav_order: 3
+---
+
 # Ionic Component Implementation Guide
 
 - [Button States](#button-states)

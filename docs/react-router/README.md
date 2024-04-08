@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ionic React Router
+nav_order: 8
+has_children: true
+---
+
 # Ionic React Router
 
 The [@ionic/react-router](https://www.npmjs.com/package/@ionic/react-router) package is the routing integration for [@ionic/react](https://www.npmjs.com/package/@ionic/react). It uses the [React Router](https://github.com/remix-run/react-router) library beneath the surface.
