@@ -1,5 +1,7 @@
 name: Ionic Framework
 include: [ CONTRIBUTING.md ]
+logo: "/assets/logo.png"
+favicon_ico: "/assets/logo.png"
 theme: just-the-docs
 nav_external_links:
   - title: CHANGELOG
