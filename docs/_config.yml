@@ -1,3 +1,16 @@
 name: Ionic Framework
 include: [ CONTRIBUTING.md ]
 theme: just-the-docs
+nav_external_links:
+  - title: CHANGELOG
+    url: https://github.com/ionic-team/ionic-framework/blob/main/CHANGELOG.md
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: Code of Conduct
+    url: https://github.com/ionic-team/ionic-framework/blob/main/CODE_OF_CONDUCT.md
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: License
+    url: https://github.com/ionic-team/ionic-framework/blob/main/LICENSE
+    hide_icon: false
+    opens_in_new_tab: true
