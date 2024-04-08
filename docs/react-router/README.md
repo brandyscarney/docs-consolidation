@@ -11,8 +11,8 @@ The [@ionic/react-router](https://www.npmjs.com/package/@ionic/react-router) pac
 
 ## Contributing
 
-See our [Contributing Guide](/docs/CONTRIBUTING.md).
+See our [Contributing Guide](../CONTRIBUTING).
 
 ## Testing
 
-Refer to the [React Router Testing documentation](./testing.md) for testing the React Router package.
+Refer to the [React Router Testing documentation](./testing) for testing the React Router package.

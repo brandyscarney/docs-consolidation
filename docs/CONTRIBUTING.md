@@ -298,7 +298,7 @@ npm install file:/~/ionic-vue-router-7.0.1.tgz
 3. If a new test is needed, the easiest way is to copy the `basic/` directory from the component's `test/` directory, rename it, and edit the content in both the `index.html` and `e2e.ts` file (see [Screenshot Tests](#screenshot-tests) for more information on this file).
 4. The `preview/` directory is used in the documentation as a demo. Only update this test if there is a bug in the test or if the API has a change that hasn't been updated in the test.
 
-See [Ionic's E2E testing guide](../core/src/utils/test/playwright/docs/README.md) for information regarding the tools you can use to test Ionic.
+See [Ionic's E2E testing guide](core/testing/README) for information regarding the tools you can use to test Ionic.
 
 ##### Screenshot Tests
 
@@ -339,9 +339,9 @@ See [Ionic's E2E testing guide](../core/src/utils/test/playwright/docs/README.md
 ##### Previewing in this repository
 
 Follow the steps in the test directory for each framework:
-  - Angular: [`/packages/angular/test`](/packages/angular/test/README.md)
-  - React: [`/packages/react/test`](/packages/react/test/README.md)
-  - Vue: [`/packages/vue/test`](/packages/vue/test/README.md)
+  - Angular: [`angular/testing`](angular/testing/README)
+  - React: [`react/testing`](react/testing/README)
+  - Vue: [`vue/testing`](vue/testing/README)
 
 ##### Previewing in an external app
 

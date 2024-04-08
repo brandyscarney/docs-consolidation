@@ -11,8 +11,8 @@ The [@ionic/core](https://www.npmjs.com/package/@ionic/core) package contains th
 
 ## Contributing
 
-See our [Contributing Guide](/docs/CONTRIBUTING.md).
+See our [Contributing Guide](../CONTRIBUTING).
 
 ## Testing
 
-Refer to the [Core Testing documentation](./testing/README.md) for testing the Core package.
+Refer to the [Core Testing documentation](./testing/README) for testing the Core package.

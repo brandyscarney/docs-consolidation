@@ -11,8 +11,8 @@ The [@ionic/angular](https://www.npmjs.com/package/@ionic/angular) package build
 
 ## Contributing
 
-See our [Contributing Guide](/docs/CONTRIBUTING.md).
+See our [Contributing Guide](../CONTRIBUTING).
 
 ## Testing
 
-Refer to the [Angular Testing documentation](./testing.md) for testing the Angular package.
+Refer to the [Angular Testing documentation](./testing) for testing the Angular package.

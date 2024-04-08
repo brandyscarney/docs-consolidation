@@ -11,8 +11,8 @@ The [@ionic/vue-router](https://www.npmjs.com/package/@ionic/vue-router) package
 
 ## Contributing
 
-See our [Contributing Guide](/docs/CONTRIBUTING.md).
+See our [Contributing Guide](../CONTRIBUTING).
 
 ## Testing
 
-Refer to the [Vue Router Testing documentation](./testing.md) for testing the Vue Router package.
+Refer to the [Vue Router Testing documentation](./testing) for testing the Vue Router package.
